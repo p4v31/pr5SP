@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    Sleep(5000); // Пауза в 5 секунд
+    Sleep(50000); // Пауза в 5 секунд
 
     const char* inputFile = argv[1];
     int childIndex = atoi(argv[2]);
